@@ -6,7 +6,7 @@ namespace MDD4All.SpecIF.Apps.MongoDbInitializer
     {
         static void Main(string[] args)
         {
-            string connectionString = "mongodb://localhost:27018";
+            string connectionString = "mongodb://127.0.0.1:27018";
 
             JwtConfigurationCreator jwtConfigurationCreator = new JwtConfigurationCreator();
 
